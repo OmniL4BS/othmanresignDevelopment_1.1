@@ -59,11 +59,11 @@ security cms -D -i $tempextracted"/Payload/$APPLICATION/embedded.mobileprovision
 
 /usr/libexec/PlistBuddy -x -c 'Print:Entitlements' /tmp/N_entitlements_full"$filename".plist >> /tmp/N_entitlements"$filename".plist
 
-############################## هذا المسار لحل مشكلة الايقونات في الاكس ار ِ############################## //
+############################## This path to solve the problem of icons in x see ِ############################## //
 /usr/libexec/PlistBuddy -c "delete :CFBundleIcons:CFBundlePrimaryIcon:CFBundleIconName" $tempextracted"/Payload/$APPLICATION/Info.plist"
 ############################## // ِ############################## //
 
-############################## // هذا المسار لحذف الشهاده بعد دمجها ##############################
+############################## // This path to delete the certificate after the merge ##############################
 #rm $tempextracted"/Payload/$APPLICATION/embedded.mobileprovision"
 ############################## // ِ############################## //
 
@@ -91,7 +91,7 @@ done < /tmp/N_files.txt
 
 rm /tmp/N_files.txt
 
-echo "Done .. Thank you for using Resign from Othman Almutairi @othman_tech"
+echo "Done .. 
 
 
 
