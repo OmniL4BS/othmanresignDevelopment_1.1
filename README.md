@@ -1,5 +1,4 @@
-# othmanresignDevelopment_1.1
-تطوير اداة عثمان المطيري لدمج برامج بلس بالاشعارات الجزء 2
-1- حذف الشهاده بعد التوقيع 
-2- اخفاء اسم الشهاده من الوحدة الطرفيه 
-3- حل مشكلة الايقونات في الاكس ار
+# Development Administration iPA-Multiverse to integrate software plus scans Cars 2 
+Part 1 - Delete certificate after signing 
+2 - hide the month name of peripheral Unit 
+3 - solving the problem of icons in x see
